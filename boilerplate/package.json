@@ -1,0 +1,36 @@
+{
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "description": "Managing wordpress theme code compile",
+    "main": "index.js",
+    "dependencies": {
+        "babel-preset-env": "^1.7.0",
+        "browser-sync": "^2.27.5",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^4.0.1",
+        "gulp-image": "^6.2.1",
+        "gulp-imagemin": "^8.0.0",
+        "gulp-sass": "^5.0.0",
+        "node-sass": "^6.0.1",
+        "rollup": "^2.56.2",
+        "rollup-plugin-alias": "^2.2.0",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.14.8",
+        "@babel/core": "^7.15.0",
+        "@babel/preset-env": "^7.15.0"
+    },
+    "scripts": {
+        "start": "gulp"
+    },
+    "keywords": [
+        "Gulp"
+    ],
+    "author": "Raman",
+    "license": "ISC"
+}
